@@ -1,14 +1,16 @@
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\business\package-info.java
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\hibernate\json\JacksonUtil.java
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\hibernate\json\package-info.java
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\package-info.java
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\hibernate\json\JsonStringSqlTypeDescriptor.java
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\hibernate\json\JsonStringType.java
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\domain\package-info.java
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\daos\package-info.java
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\hibernate\json\AbstractJsonSqlTypeDescriptor.java
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\controlleradvices\package-info.java
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\model\package-info.java
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\package-info.java
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\CamelCaseNamingStrategy.java
-C:\Users\User01\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\hibernate\json\JsonTypeDescriptor.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\model\ProvisioningError.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\CamelCaseNamingStrategy.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\package-info.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\domain\package-info.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\hibernate\json\package-info.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\daos\package-info.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\hibernate\json\AbstractJsonSqlTypeDescriptor.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\model\package-info.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\hibernate\json\JacksonUtil.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\business\package-info.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\model\User.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\controlleradvices\package-info.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\hibernate\json\JsonTypeDescriptor.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\package-info.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\hibernate\json\JsonStringType.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\hibernate\json\JsonStringSqlTypeDescriptor.java
