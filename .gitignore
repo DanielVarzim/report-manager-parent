@@ -71,7 +71,7 @@ hs_err_pid*
 *.apt_generated
 
 
-### HORUS 
+### ReportManager
 
 
 report-portal/target/*
@@ -86,6 +86,7 @@ etc/*
 *report-portal/target/*
 *log/*
 *.log
+*.classpath
 
 
 *application.properties
