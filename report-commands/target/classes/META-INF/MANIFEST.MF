@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: report-commands
-Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: Daniel Varzim
-Implementation-Vendor-Id: pt.voda
-Build-Jdk: 1.8.0_171
-Implementation-URL: http://maven.apache.org/report-commands
-Created-By: Maven Integration for Eclipse
-
