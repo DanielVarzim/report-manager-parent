@@ -1,10 +1,11 @@
 package pt.voda.reportmanager.basemodel.model;
 
+import java.util.Date;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 
@@ -26,6 +27,12 @@ public class FixedError extends ProvisioningError{
 	@NotEmpty
 	private int accessId;
 	
-	@ManyToOne
-	private User userId;
+	
+	public FixedError(int errorCode, String networkElement, String description, String requestId, int retries, int daysInError, Date start, Date lastRetryAt, int workOrder, String status, Boolean isReported, Boolean isDeleted, int accessId){
+		super(errorCode, networkElement, description, requestId, retries, daysInError, start, lastRetryAt, workOrder, status, isReported, isDeleted);
+	
+		this.accessId = accessId;
+		
+	}
+	
 }
