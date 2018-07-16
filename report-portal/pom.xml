@@ -8,6 +8,19 @@
   <artifactId>report-portal</artifactId>
   
   <dependencies>
+  
+  		<dependency>
+			<groupId>pt.voda</groupId>
+			<artifactId>report-base-model</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>pt.voda</groupId>
+			<artifactId>report-commands</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+  
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
