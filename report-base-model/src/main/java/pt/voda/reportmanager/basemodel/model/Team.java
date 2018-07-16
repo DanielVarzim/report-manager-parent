@@ -28,12 +28,20 @@ public class Team{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long idTeam;
+	
 	@NotEmpty
 	@Size(max = 45)
 	private String name;
+	
 	@NotEmpty
 	private Boolean isDeleted;
+	
 	@NotEmpty
 	@Size(max = 255)
 	private Date createdAt;
+	
+	public Team(String name, Boolean isDeleted) {
+		this.name = name;
+		this.isDeleted = isDeleted;
+	}
 }
