@@ -57,4 +57,13 @@ public class User implements Serializable{
 	@NotEmpty
 	@ManyToOne
 	private Team teamId;
+	
+	public User(String name, String email, String color, String password, Boolean isDeleted, Team teamId) {
+		this.name = name;
+		this.email = email;
+		this.color = color;
+		this.password = password;
+		this.isDeleted = isDeleted;
+		this.teamId = teamId;
+	}
 }
