@@ -1,6 +1,6 @@
 package pt.voda.reportmanager.basemodel.model;
 
-import java.sql.Date;
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,14 +15,13 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+
 @Setter
 @Getter
 @NoArgsConstructor
-//@Audited
 @Entity
 @ToString
 @Table(name = "team")
-
 public class Team{
 	
 	@Id
@@ -45,3 +44,5 @@ public class Team{
 		this.isDeleted = isDeleted;
 	}
 }
+
+
