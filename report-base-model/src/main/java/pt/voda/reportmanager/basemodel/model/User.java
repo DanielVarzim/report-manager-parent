@@ -34,27 +34,31 @@ public class User implements Serializable{
 	private Long id;
 	
 	@NotEmpty
-	@Size(max = 45)
+	@Size(max = 255)
 	private String name;
-	
-	@Size(max = 45)
-	private String email;
 	
 	@NotEmpty
 	@Size(max = 45)
 	private String color;
 	
-	private Date createdAt;
-	
-	private Boolean isAdmin;
+	@NotEmpty
+	@Size(max = 255)
+	private String email;
 	
 	@NotEmpty
 	@Size(max = 255)
 	private String password;
 	
-	private Boolean isDeleted;
+	@NotEmpty
+	private Date createdAt;
 	
 	@NotEmpty
+	private Boolean isAdmin;
+	
+
+	@NotEmpty
+	private Boolean isDeleted;
+	
 	@ManyToOne
 	private Team teamId;
 	

@@ -11,6 +11,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
@@ -18,6 +19,7 @@ import lombok.ToString;
 @Getter
 @Entity
 @ToString
+@NoArgsConstructor
 @Table(name="mobile_error")
 public class MobileError extends ProvisioningError{
 	
@@ -31,8 +33,8 @@ public class MobileError extends ProvisioningError{
 	@NotEmpty
 	private int imsi;
 	
-	public MobileError(int errorCode, String networkElement, String description, String requestId, int retries, int daysInError, Date start, Date lastRetryAt, int workOrder, String status, Boolean isReported, Boolean isDeleted, int msisdn, int imsi){
-		super(errorCode, networkElement, description, requestId, retries, daysInError, start, lastRetryAt, workOrder, status, isReported, isDeleted);
+	public MobileError(int errorCode, String networkElement, String description, String requestId, int retries, int daysInError, Date startedAt, Date lastRetryAt, int workOrder, String status, Boolean isReported, Boolean isDeleted, int msisdn, int imsi){
+		super(errorCode, networkElement, description, requestId, retries, daysInError, startedAt, lastRetryAt, workOrder, status, isReported, isDeleted);
 	
 		this.msisdn = msisdn;
 		this.imsi = imsi;

@@ -10,6 +10,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
@@ -17,6 +18,7 @@ import lombok.ToString;
 @Getter
 @Entity
 @ToString
+@NoArgsConstructor
 @Table(name="fixed_error")
 public class FixedError extends ProvisioningError{
 	
@@ -28,8 +30,8 @@ public class FixedError extends ProvisioningError{
 	private int accessId;
 	
 	
-	public FixedError(int errorCode, String networkElement, String description, String requestId, int retries, int daysInError, Date start, Date lastRetryAt, int workOrder, String status, Boolean isReported, Boolean isDeleted, int accessId){
-		super(errorCode, networkElement, description, requestId, retries, daysInError, start, lastRetryAt, workOrder, status, isReported, isDeleted);
+	public FixedError(int errorCode, String networkElement, String description, String requestId, int retries, int daysInError, Date startedAt, Date lastRetryAt, int workOrder, String status, Boolean isReported, Boolean isDeleted, int accessId){
+		super(errorCode, networkElement, description, requestId, retries, daysInError, startedAt, lastRetryAt, workOrder, status, isReported, isDeleted);
 	
 		this.accessId = accessId;
 		

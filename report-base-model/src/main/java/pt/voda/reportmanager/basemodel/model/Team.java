@@ -29,14 +29,13 @@ public class Team{
 	private Long idTeam;
 	
 	@NotEmpty
-	@Size(max = 45)
+	@Size(max = 255)
 	private String name;
 	
 	@NotEmpty
 	private Boolean isDeleted;
 	
 	@NotEmpty
-	@Size(max = 255)
 	private Date createdAt;
 	
 	public Team(String name, Boolean isDeleted) {
