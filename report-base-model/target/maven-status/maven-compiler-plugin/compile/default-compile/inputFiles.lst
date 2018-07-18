@@ -2,12 +2,13 @@ C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model
 C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\BaseModelTestConfiguration.java
 C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\test\package-info.java
 C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\domain\package-info.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\daos\MobileErrorDAO.java
 C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\daos\FixedErrorDAO.java
 C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\hibernate\json\JacksonUtil.java
 C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\model\MobileError.java
 C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\business\package-info.java
-C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\daos\MobileDAO.java
 C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\daos\UserDAO.java
+C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\TestHelper.java
 C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\test\ReportManagerTest.java
 C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\model\ProvisioningError.java
 C:\Users\Daniel Varzim\eclipse-workspace\report-manager-parent\report-base-model\src\main\java\pt\voda\reportmanager\basemodel\utils\package-info.java
