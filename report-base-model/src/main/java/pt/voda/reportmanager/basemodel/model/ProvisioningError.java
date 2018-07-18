@@ -54,9 +54,9 @@ public class ProvisioningError {
 	
 	@NotEmpty
 	@ManyToOne
-	private User userId;
+	private User user;
 	
-	public ProvisioningError(int errorCode, String networkElement, String description, String requestId, int retries, int daysInError, Date startedAt, Date lastRetryAt, int workOrder, String status, Boolean isReported, Boolean isDeleted) {
+	public ProvisioningError(int errorCode, String networkElement, String description, String requestId, int retries, int daysInError, Date startedAt, Date lastRetryAt, int workOrder, String status, Boolean isReported, Boolean isDeleted, User user) {
 		this.errorCode = errorCode;
 		this.networkElement = networkElement;
 		this.description = description;
@@ -67,5 +67,6 @@ public class ProvisioningError {
 		this.lastRetryAt = lastRetryAt;
 		this.workOrder = workOrder;
 		this.status = status;
+		this.user = user;
 	}
 }

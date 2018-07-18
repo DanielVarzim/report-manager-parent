@@ -26,7 +26,7 @@ public class Team{
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long idTeam;
+	private Long id;
 	
 	@NotEmpty
 	@Size(max = 255)

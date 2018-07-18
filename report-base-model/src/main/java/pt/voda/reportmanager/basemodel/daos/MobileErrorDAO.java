@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import pt.voda.reportmanager.basemodel.model.MobileError;
 
 @Repository
-public interface MobileDAO extends JpaRepository<MobileError, Long> {
+public interface MobileErrorDAO extends JpaRepository<MobileError, Long> {
 
 }
