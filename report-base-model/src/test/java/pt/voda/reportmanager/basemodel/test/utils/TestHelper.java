@@ -1,4 +1,4 @@
-package pt.voda.reportmanager.basemodel.utils;
+package pt.voda.reportmanager.basemodel.test.utils;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

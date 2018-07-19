@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import lombok.AccessLevel;
@@ -49,14 +50,13 @@ public class User implements Serializable{
 	@Size(max = 255)
 	private String password;
 	
-	@NotEmpty
+	@NotNull
 	private Date createdAt;
 	
-	@NotEmpty
+	@NotNull
 	private Boolean isAdmin;
 	
-
-	@NotEmpty
+	@NotNull
 	private Boolean isDeleted;
 	
 	@ManyToOne

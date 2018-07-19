@@ -8,6 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import lombok.Getter;
@@ -32,10 +33,10 @@ public class Team{
 	@Size(max = 255)
 	private String name;
 	
-	@NotEmpty
+	@NotNull
 	private Boolean isDeleted;
 	
-	@NotEmpty
+	@NotNull
 	private Date createdAt;
 	
 	public Team(String name, Boolean isDeleted) {

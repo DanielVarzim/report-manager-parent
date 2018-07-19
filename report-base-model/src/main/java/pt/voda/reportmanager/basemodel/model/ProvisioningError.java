@@ -5,6 +5,7 @@ import java.util.Date;
 import javax.persistence.ManyToOne;
 import javax.persistence.MappedSuperclass;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import lombok.Getter;
@@ -35,10 +36,10 @@ public class ProvisioningError {
 	
 	private int daysInError;
 	
-	@NotEmpty
+	@NotNull
 	private Date startedAt;
 	
-	@NotEmpty
+	@NotNull
 	private Date lastRetryAt;
 	
 	private int workOrder;
@@ -46,13 +47,13 @@ public class ProvisioningError {
 	@Size(max = 45)
 	private String status;
 	
-	@NotEmpty
+	@NotNull
 	private Boolean isReported;
 	
 	@NotEmpty
 	private Boolean isDeleted;
 	
-	@NotEmpty
+	@NotNull
 	@ManyToOne
 	private User user;
 	
