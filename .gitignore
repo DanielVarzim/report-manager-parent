@@ -81,10 +81,9 @@ report-base-model/target/**
 
 etc/*
 *bin/*
+target/
 */target/**
 */target*
-*/target/**
-*/target/*
 *report-portal/target/*
 *report-base-model/target/*
 *log/*
