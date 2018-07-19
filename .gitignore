@@ -76,6 +76,8 @@ hs_err_pid*
 
 report-portal/target/*
 report-portal/target/**
+report-base-model/target/*
+report-base-model/target/**
 
 etc/*
 *bin/*
@@ -84,6 +86,7 @@ etc/*
 */target/**
 */target/*
 *report-portal/target/*
+*report-base-model/target/*
 *log/*
 *.log
 *.classpath
